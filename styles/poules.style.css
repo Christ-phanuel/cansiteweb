@@ -1,0 +1,154 @@
+.titre {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.fourth-section {
+  margin-top: 2%;
+}
+
+.table_component {
+  overflow: auto;
+  width: 100%;
+}
+
+.table_component table {
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+  text-align: center;
+  table-layout: auto;
+  margin-bottom: 3%;
+}
+
+.table_component caption {
+  caption-side: top;
+  text-align: left;
+  color: white;
+  font-weight: bold
+}
+
+.table_component th {
+  border-bottom: 1px groove #dededf;
+  border-right: 1px groove #dededf;
+  background-color: #e0c21769;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.table_component td {
+  border-bottom: 1px groove #dededf;
+  border-right: 1px groove #dededf;
+  background-color: #413e3e00;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.civ::before,
+.guiE::before,
+.nig::before,
+.guiB::before,
+.cap::before,
+.egy::before,
+.moz::before,
+.gha::before,
+.sen::before,
+.cam::before,
+.gui::before,
+.gamb::before,
+.brk::before,
+.alg::before,
+.ang::before,
+.mau::before,
+.mal::before,
+.mar::before,
+.nam::before,
+.tun::before,
+.afs::before,
+.rdc::before,
+.tan::before,
+.zam::before
+{
+content: '';
+vertical-align: middle;
+margin-right: 2%;
+}
+
+.civ::before {
+  content: url('../img/flag-ci-svgrepo-com.svg');
+}
+.guiE::before {
+  content: url('../img/flag-gq-svgrepo-com.svg');
+  width: 25px;
+  height: 25px;
+}
+.nig::before {
+  content: url('../img/flag-ng-svgrepo-com.svg');
+}
+.guiB::before {
+  content: url('../img/flag-gw-svgrepo-com.svg');
+}
+.cap::before {
+  content: url('../img/flag-cv-svgrepo-com.svg');
+}
+.egy::before {
+  content: url('../img/flag-eg-svgrepo-com.svg');
+}
+.moz::before {
+  content: url('../img/flag-mz-svgrepo-com.svg');
+}
+.gha::before {
+  content: url('../img/flag-gh-svgrepo-com.svg');
+}
+.sen::before {
+  content: url('../img/flag-sn-svgrepo-com.svg');
+}
+.cam::before {
+  content: url('../img/flag-cm-svgrepo-com.svg');
+}
+.gui::before {
+  content: url('../img/flag-gn-svgrepo-com.svg');
+}
+.gamb::before {
+  content: url('../img/flag-gm-svgrepo-com.svg');
+}
+.brk::before {
+  content: url('../img/flag-bf-svgrepo-com.svg');
+}
+.alg::before {
+  content: url('../img/flag-dz-svgrepo-com.svg');
+}
+.ang::before {
+  content: url('../img/flag-ao-svgrepo-com.svg');
+}
+.mau::before {
+  content: url('../img/flag-mr-svgrepo-com.svg');
+}
+.mal::before {
+  content: url('../img/flag-ml-svgrepo-com.svg');
+}
+.nam::before {
+  content: url('../img/flag-na-svgrepo-com.svg');
+}
+.tun::before {
+  content: url('../img/flag-tn-svgrepo-com.svg');
+}
+.afs::before {
+  content: url('../img/flag-za-svgrepo-com.svg');
+}
+.rdc::before {
+  content: url('../img/flag-cd-svgrepo-com.svg');
+}
+.tan::before {
+  content: url('../img/flag-tz-svgrepo-com.svg');
+}
+.zam::before {
+  content: url('../img/flag-zm-svgrepo-com.svg');
+}
+.mar::before{
+  content: url('../img/flag-ma-svgrepo-com.svg');
+}

@@ -1,0 +1,27 @@
+:root {
+  --first-orange-color: #F88700;
+  --second-orange-color: #D9A24A;
+  --white-color: #FFFFFF;
+  --grey-color: #D2D1CF;
+  --first-green-color: #41AA47;
+  --second-green-color: #024D19;
+  --black-color : #000000eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #074014;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

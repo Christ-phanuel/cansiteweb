@@ -1,0 +1,162 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 512px;
+}
+
+.carousel div {
+  position: absolute;
+}
+.carousel div .overlay h3{
+  margin-top: -15%;
+}
+.stade1 .overlay,
+.stade2 .overlay,
+.stade3 .overlay,
+.stade4 .overlay,
+.stade5 .overlay {
+  z-index: 30;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.stade1,
+.stade2,
+.stade3,
+.stade4,
+.stade5 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.stade2,
+.stade3,
+.stade4,
+.stade5 {
+  opacity: 0;
+}
+
+.stade1 {
+  z-index: 5;
+  animation: carousel1 15s ease-in-out 0s infinite;
+}
+
+.stade2 {
+  z-index: 4;
+  animation: carousel2 15s ease-in-out 0s infinite;
+}
+
+.stade3 {
+  z-index: 3;
+  animation: carousel3 15s ease-in-out 0s infinite;
+}
+
+.stade4 {
+  z-index: 2;
+  animation: carousel4 15s ease-in-out 0s infinite;
+}
+
+.stade5 {
+  z-index: 1;
+  animation: carousel5 15s ease-in-out 0s infinite;
+}
+
+@keyframes carousel1 {
+  0% {opacity: 1;}
+
+  20% {
+    opacity: 0;
+  }
+  40%{opacity: 0;}
+  60% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes carousel2 {
+  0% {opacity:0 ;}
+
+  20% {
+    opacity: 1;
+  }
+  40%{opacity: 0;}
+  60% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes carousel3 {
+  0% {opacity: 0;}
+
+  20% {
+    opacity: 0;
+  }
+  40%{opacity: 1;}
+  60% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes carousel4 {
+  0% {opacity: 0;}
+
+  20% {
+    opacity: 0;
+  }
+  40%{opacity: 0;}
+  60% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes carousel5 {
+  0% {opacity: 0;}
+
+  20% {
+    opacity: 0;
+  }
+  40%{opacity: 0;}
+  60% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

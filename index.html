@@ -13,7 +13,10 @@
   <link rel="stylesheet" href="styles/config.css">
   <link rel="stylesheet" href="styles/header.style.css">
   <link rel="stylesheet" href="styles/accueil-main.css">
+  <link rel="stylesheet" href="styles/carousel.style.css">
   <link rel="stylesheet" href="styles/poules.style.css">
+  <link rel="stylesheet" href="styles/calendar.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <link rel="stylesheet" href="styles/footer.css">
   <!-- scripts -->
 
@@ -30,16 +33,16 @@
       <ul class="nav-bar">
         <li><a href="#">Accueil</a></li>
         <li><a href="#third-section">Poules</a></li>
-        <li><a href="#">Calendrier</a></li>
+        <li><a href="#calendar">Calendrier</a></li>
         <li><a href="#">Stats</a></li>
-        <li><a href="#">Connexion</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
  
     <div class="second-section carousel" id="second-section">
-      <div class="container">
+      <div class="container stade1">
         <img src="img/stade-de-la-paix.jpg" alt="Votre image">
         <div class="overlay">
           <h3>Stade de la Paix de Bouaké</h3>
@@ -49,7 +52,7 @@
             1984</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container stade2">
         <img src="img/stade-Alassane.jpg" alt="Votre image">
         <div class="overlay">
           <h3>Stade allasane Ouattara</h3>
@@ -59,7 +62,7 @@
             d'Ivoire. C’est le stade de l'équipe nationale de football de Côte d'Ivoire.</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container stade3">
         <img src="img/stade-charles-konan.jpg" alt="Votre image">
         <div class="overlay">
           <h3>Stade Charles Konan Banny de Yamoussoukro</h3>
@@ -68,7 +71,7 @@
             association constituée d'Alcor, Sogea-Satom, Egis et Baudin Châteauneuf est signée.</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container stade4">
         <img src="img/stade-amadou-gon-coulibaly_30_05_2023-1.jpg" alt="Votre image">
         <div class="overlay">
           <h3>Stade Amadou Gon Coulibaly de Korhogo</h3>
@@ -78,7 +81,7 @@
             d'Afrique des nations</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container stade5">
         <img src="img/stade-laurent-pokou.jpeg" alt="Votre image">
         <div class="overlay">
           <h3>Stade de San Pédro</h3>
@@ -91,7 +94,7 @@
 
     </div>
     <div class="first-section">
-      <video src="videos/Can-ouverture.mp4" muted class="video-ouverture" controls autoplay></video>
+    
       <div class="video-text">
         <h3 class="title"> Côte d'Ivoire </h3>
         <p>La Côte d'Ivoire est un pays d'Afrique de l'Ouest doté de stations balnéaires, de forêts tropicales et d'un
@@ -102,10 +105,17 @@
           randonnée
         </p>
       </div>
+      <video src="videos/Can-ouverture.mp4" type="video/mp4" muted class="video-ouverture" controls autoplay></video>
     </div>
     <hr> <br>
     <h2 class="titre">Poules</h2>
     <div class="third-section" id="third-section"></div>
+    <div id="calendar">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+    </div>
     <div id="fourth-section" class="fourth-section">
       <div class="table_component" role="region" tabindex="0">
         <table>
@@ -480,6 +490,28 @@
             </tr>
           </tbody>
         </table>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="containing">
+        <form action="" class="m-auto" style="max-width:600px">
+          <h3 class="my-4">Contactez nous</h3>
+          <hr class="my-4" />
+          <div class="form-group mb-3 row"><label for="name2" class="col-md-5 col-form-label">Name</label>
+            <div class="col-md-7"><input type="text" class="form-control form-control-lg" id="name2" name="name" required></div>
+          </div>
+          <div class="form-group mb-3 row"><label for="email3" class="col-md-5 col-form-label">Email</label>
+            <div class="col-md-7"><input type="email" class="form-control form-control-lg" id="email3" name="email" required><small class="form-text text-muted"> Please enter a valid email address</small></div>
+          </div>
+          <hr class="bg-transparent border-0 py-1" />
+          <div class="form-group mb-3 row"><label for="message6" class="col-md-5 col-form-label">Message</label>
+            <div class="col-md-7"><textarea class="form-control form-control-lg" id="message6" name="message" required></textarea></div>
+          </div>
+          <hr class="my-4" />
+          <div class="form-group mb-3 row"><label for="envoyer8" class="col-md-5 col-form-label"></label>
+            <div class="col-md-7"><button class="btn btn-primary btn-lg" type="submit">Envoyer!</button></div>
+          </div>
+        </form>
       </div>
     </div>
   </main>

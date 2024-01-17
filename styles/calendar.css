@@ -1,0 +1,18 @@
+#calendar{
+  display: grid;
+  grid-template-areas: 
+  " div1 div2"
+  "div3 div4";
+}
+.div1{
+  grid-area:div1  ;
+}
+.div2{
+  grid-area:div2  ;
+}
+.div3{
+  grid-area:div3  ;
+}
+.div4{
+  grid-area:div4  ;
+}

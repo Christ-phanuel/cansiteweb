@@ -6,6 +6,9 @@ main {
   border-radius: 10px;
   margin: 0 3% 2%;
 }
+main  ~ div{
+  margin: 7% 0%;
+}
 
 
 
@@ -23,7 +26,7 @@ main {
 .video-ouverture {
   width: 100%;
   border-radius: 7px;
-  margin-bottom: 1%;
+  margin-top: 3%;
 }
 
 .video-text {
